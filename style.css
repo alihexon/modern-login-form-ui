@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  font-family: Nunito, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+
+body {
+  background: url(assets/bg.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid #cfcfcf;
+  border-radius: 15px;
+  padding: 3em 2em;
+}
+
+.container h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.input-wrapper input {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #cfcfcf;
+  border-radius: 300px;
+  outline: none;
+  width: 400px;
+  padding: 12px 15px 12px 15px;
+  font-size: 16px;
+}
+
+.input-wrapper input::placeholder,
+.input-wrapper i {
+  color: #cfcfcf;
+}
+
+.input-wrapper i {
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  font-size: 20px;
+}
+
+.direct {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-me,
+.forgot-pass a,
+.register-d span {
+  color: #fff;
+}
+
+.forgot-pass a,
+.register-d .d a {
+  text-decoration: none;
+  transition: all 0.15s ease-in;
+}
+
+.forgot-pass a:hover,
+.register-d .d a:hover {
+  color: rgb(195, 122, 229);
+}
+
+.forgot-pass a:active,
+.register-d .d a:active,
+.login-btn:active {
+  opacity: 0.7;
+}
+
+.login-btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 300px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.register-d {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.register-d .d a {
+  font-weight: 700;
+  color: white;
+}
