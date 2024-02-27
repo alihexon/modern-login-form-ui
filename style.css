@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .container {
@@ -37,13 +37,12 @@ body {
   margin-bottom: 20px;
 }
 
-.form-wrapper {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
-
 
 .input-wrapper {
   position: relative;
@@ -71,6 +70,12 @@ body {
   right: 15px;
   top: 30%;
   font-size: 20px;
+}
+
+.input-wrapper input:focus + i,
+.input-wrapper input:focus {
+  color: #fff;
+  border-color: #fff;
 }
 
 .direct {
