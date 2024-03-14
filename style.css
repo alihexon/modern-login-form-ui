@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   font-family: Nunito, sans-serif;
@@ -13,7 +13,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
 }
@@ -28,6 +27,7 @@ body {
   border-radius: 15px;
   width: 420px;
   padding: 3em 2em;
+  margin: 0 auto;
 }
 
 .container h1 {
@@ -118,7 +118,7 @@ form {
   margin-bottom: 1em;
   cursor: pointer;
   user-select: none;
-  transition: all 0.25s ease-in-out;
+  transition: color, background-color 0.25s ease-in-out;
 }
 
 .login-btn:hover {
