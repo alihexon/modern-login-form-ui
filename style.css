@@ -136,3 +136,11 @@ form {
   font-weight: 700;
   color: white;
 }
+
+@media screen and (max-width: 340px) {
+  .direct {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+}
