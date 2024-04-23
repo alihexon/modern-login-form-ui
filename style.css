@@ -103,12 +103,6 @@ form {
   color: rgb(195, 122, 229);
 }
 
-.forgot-pass a:active,
-.register-d .d a:active,
-.login-btn:active {
-  opacity: 0.7;
-}
-
 .login-btn {
   font-size: 18px;
   font-weight: 600;
