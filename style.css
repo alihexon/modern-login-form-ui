@@ -91,13 +91,13 @@
 }
 
 .login-form a,
-.register .d a {
+.register .register-link a {
   text-decoration: none;
   transition: all 0.15s ease-in;
 }
 
 .forgot-pass:hover,
-.register .d a:hover {
+.register .register-link a:hover {
   color: rgb(195, 122, 229);
 }
 
@@ -125,7 +125,7 @@
   gap: 7px;
 }
 
-.register .d a {
+.register .register-link a {
   font-weight: 700;
   color: white;
 }
