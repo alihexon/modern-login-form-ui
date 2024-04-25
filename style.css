@@ -72,8 +72,8 @@
   right: 15px;
 }
 
-.input-wrapper input:focus + i,
-.input-wrapper input:focus {
+.input-wrapper input:focus,
+.input-wrapper input:focus + i {
   color: #fff;
   border-color: #fff;
 }
