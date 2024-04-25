@@ -78,7 +78,7 @@
   border-color: #fff;
 }
 
-.direct {
+.login-options {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
@@ -131,7 +131,7 @@
 }
 
 @media screen and (max-width: 340px) {
-  .direct {
+  .login-options {
     text-align: center;
     flex-direction: column;
     gap: 4px;
