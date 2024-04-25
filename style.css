@@ -84,20 +84,20 @@
   margin: 16px 0;
 }
 
-.remember-me,
-.forgot-pass a,
-.register-d span {
+.remember-me span,
+.forgot-pass,
+.register span {
   color: #fff;
 }
 
-.forgot-pass a,
-.register-d .d a {
+.login-form a,
+.register .d a {
   text-decoration: none;
   transition: all 0.15s ease-in;
 }
 
-.forgot-pass a:hover,
-.register-d .d a:hover {
+.forgot-pass:hover,
+.register .d a:hover {
   color: rgb(195, 122, 229);
 }
 
@@ -119,13 +119,13 @@
   background-color: black;
 }
 
-.register-d {
+.register {
   display: flex;
   justify-content: center;
   gap: 7px;
 }
 
-.register-d .d a {
+.register .d a {
   font-weight: 700;
   color: white;
 }
